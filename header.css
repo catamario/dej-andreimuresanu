@@ -1,0 +1,101 @@
+header
+{
+    display:block;
+}
+
+header a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.menubar
+{
+    background-color: #5f2f7f;
+    box-shadow: inset 0px -6px 4px #4b1c69;
+    
+}
+
+header .menubar ul
+{
+    color:white;
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    padding: 20 50 20 50;
+    font-size: 20px;
+}
+
+header .menubar li a:hover
+{
+    cursor: pointer;
+    color:hsl(51, 84%, 50%);
+    text-shadow:0 2px 2px black;
+}
+
+header .menubar li
+{
+    transition: 0.2s ease-in-out;
+}
+
+header .menubar li:hover
+{
+    transform: scale(1.25);
+    transition: 0.2s ease-in;
+}
+
+header .logobox
+{
+    display:flex;
+    position:relative;
+    top:-20px;
+    background-color: #572b75;
+    width: fit-content;
+    padding: 5px 20px 5px 20px;
+    border-color: #cf92f7;
+    border-width: 2px;
+    border-style: solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 0;
+    box-shadow: inset -3px -3px 4px #af76d4 ;
+    cursor:default;
+}
+
+.logobox h1{color:white; margin-left: 10px; font-size: 22px;}
+
+#pozalogo{ border-radius: 50%; height: 75px; width: 75px;}
+
+@media (max-width:828px)
+    {
+        header .menubar ul li
+        {
+            align-self:center;
+        }
+
+        header .menubar ul { font-size: small;}
+
+        header .menubar li:hover
+        {
+            transform: none;
+        }
+
+        header .logobox
+        {
+            top:-12.75px;
+        }
+
+        .logobox h1
+        {
+            font-size: 12px;
+            transition: 0.2s ease-in-out;
+        }
+
+        #pozalogo
+        {
+            height: 35px;
+            width: 35px;
+            transition: 0.2s ease-in-out;
+        }
+    }
+    
