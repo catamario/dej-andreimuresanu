@@ -245,7 +245,7 @@ body
     {
         left:1%;
         top:160px;
-        width:65%;
+        width:min(65%, 99%);
         transition: ease 0.5s;
     }
 }
