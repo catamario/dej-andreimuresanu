@@ -157,6 +157,7 @@ body
     justify-content: center;
     text-align: center;
     transform: translate(-50%, -50%);
+    transition: ease-in-out 0.5s;
     opacity: 0; visibility: hidden;   }
 
     .overlay {
@@ -197,7 +198,6 @@ body
     height: fit-content;
     padding: 10px;
     border-radius: 30px;
-    transition: ease-in-out 0.5s;
 }
 
 
