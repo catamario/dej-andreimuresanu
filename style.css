@@ -225,7 +225,33 @@ body
     }
 }
 
-@media (max-width:1350px)
+@media (max-width:1310px)
+{
+    .slideshow
+    {
+        top:50px;
+        left:70%;
+        width:300px;
+        height: 300px;
+    }
+    
+    .noutati
+    {
+        left:71%;
+        top:450px;
+    }
+
+    .paragraf
+    {
+        left:1%;
+        top:160px;
+        width:65%;
+        transition: ease 0.5s;
+    }
+}
+
+
+@media (max-width:1000px)
 {
     .noutati
     {
